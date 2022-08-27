@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: solid 4px white;
+}
+body{
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    color: #eee;
+}
+.descricao{
+    width: 300px;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+.duracao{
+    width: 300px;
+    margin-top: 25px;
+    
+}
+
+.barra{
+    width: 300px;
+    height: 8px;
+    border: solid 1px #eee;
+    border-radius:5px ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress{
+    height: 6px;
+    width:0%;
+    background-color: #333;
+}
+
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.tempo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.player{
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.botao-play, .botao-pause{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.setas{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.botao-pause{
+    display: none;
+}
+.musica{
+    border: solid #eee 4px;
+    padding: 20px;
+    border-radius: 10px;
+}
